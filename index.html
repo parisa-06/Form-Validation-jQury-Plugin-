@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Makes "field" required and between 2 and 6 characters long.</title>
+<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+ 
+</head>
+<body>
+<form id="myform">
+<label for="field">نام :</label>
+<input type="text" class="left" id="field" name="fname">
+<br/>
+<label for="field">ایمیل:</label>
+<input type="text" class="left" id="field" name="email">
+<br/>
+<label for="field">سن :</label>
+<input type="text" class="left" id="field" name="age">
+<br/>
+<input type="submit" value="Validate!" onclick="functionValid()">
+</form>
+
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 
+    
+<script src="script.js"></script>
+
+</body>
+</html>
